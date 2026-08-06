@@ -4,6 +4,7 @@
   "description": "Minimal Node.js 22 Hello World",
   "main": "index.js",
   "scripts": {
+    "build": "node --check index.js",
     "start": "node index.js"
   },
   "engines": {
